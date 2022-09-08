@@ -146,7 +146,7 @@ let process = prompt("Welcome to the fahrenheit-celcius converter. You can type 
 
 
 console.log(process);
-if(process === "f" || process== "F"){
+if(process == "f" || process== "F"){
     let fahrenheit = +prompt(
       "please enter a number of fahreinheit to convert into celcius"
     );
