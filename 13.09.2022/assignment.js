@@ -22,6 +22,8 @@ const myReverse2 = function(x){
 
 console.log(myReverse2(naber2));
 
+
+
 // ***3.soru***
 
 naber3 = [1,4,7,9];
@@ -39,3 +41,5 @@ const myMerge = function(x,y){
 }
 
 console.log(myMerge(naber3,naber4));
+
+
