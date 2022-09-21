@@ -24,7 +24,7 @@ myButton.onclick = () =>{
        <td>${myVade} ₺</td>
     </tr>
    
-    ..............
+    
   </tbody>
 </table>;`);
 }
