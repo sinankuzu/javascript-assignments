@@ -10,14 +10,38 @@
 </head>
 <body>
 
-    <input class="kredi-miktari" type="number">
-    <input class="kredi-tipi" type="text">
-    <input type="text">
-    <button class="hesapla"></button>
+    <div class="container">
+        <form action="">
+    <h2>Kredi Hesaplama Araci</h2>
+
+    <label for="kredi-tipi">Kredi:</label><br>
+    <select name="" id="select1">
+    <option value="">Konut Kredisi</option>
+    <option value="">Ihtiyac Kredisi</option>
+    <option value="">Arac Kredisi</option>
+    </select>
+     <br>
+    <input class="kredi-miktari rounded" type="number"><br>
+    <input class="kredi-tipi rounded" type="text"><br>
+    <input type="text"><br>
+    <button class="hesapla bg-dark text-white rounded">Hesapla</button>
       <div class="table1"></div>
+</form>
+    </div>
 
-
-
+    <form>
+  <div class="form-group">
+    <select class="form-control">
+  <option>Kredi</option>
+</select>
+    <label for="formGroupExampleInput">Example label</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+  </div>
+  <div class="form-group">
+    <label for="formGroupExampleInput2">Another label</label>
+    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+  </div>
+</form>
     <script src="./app.js"></script>
 </body>
 </html>

@@ -13,9 +13,21 @@ myTable.innerHTML = `<table class="table table-bordered border-warning  mt-4">
       <td>${krediMiktari} ₺</td>
       <th>Kredi Tipi</th>
       <td>${krediTipi}</td>
-    </tr>
+      </tr>
+      <tr>
+       <th>Vade</th>
+      <td>${krediMiktari} ₺</td>
+      <th>Faiz Orani</th>
+      <td>${krediTipi}</td>
+       </tr>
+       <tr>
+       <th>Toplam Tutar</th>
+      <td>${krediMiktari} ₺</td>
+      <th>Taksit Tutari</th>
+      <td>${krediTipi}</td>
+       </tr>
     ..............
   </tbody>
-</table>;`
+</table>;`;
 }
 
