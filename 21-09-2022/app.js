@@ -12,7 +12,7 @@ myButton.onclick = () =>{
     const taksitTutari =
       krediMiktari *
       (myTable.innerHTML = `<table class="table table-bordered border-warning  mt-4">
-  <tbody>
+  <body>
     <tr>
       <th>Kredi Miktari</th>
       <td>${krediMiktari} ₺</td>
@@ -25,7 +25,7 @@ myButton.onclick = () =>{
     </tr>
    
     
-  </tbody>
+  </body>
 </table>;`);
 }
 
