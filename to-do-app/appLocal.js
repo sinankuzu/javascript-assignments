@@ -5,9 +5,8 @@ const myIcon = document.createElement("fa-check");
 
 const myToplam = document.querySelector("#toplam");
 const myTamamlanan = document.querySelector("#tamamlanan");
-const myList =[]
+const myList = [];
 todoButton.onclick = () => {
-  
   todoLi.innerHTML += `<li><i class="fa-solid fa-check"></i> <p>${todoInput.value}</p><i class="fa-solid fa-trash"></i></li>`;
   myList.push(todoInput.value);
   myToplam.innerHTML++;
@@ -17,9 +16,8 @@ todoButton.onclick = () => {
 
 todoLi.onclick = (e) => {
   if (e.target.classList.contains("fa-trash")) {
-    
     myToplam.innerHTML--;
-    
+
     if (
       myTamamlanan.value == myToplam.value &&
       e.target.parentElement.classList.contains("checked")
