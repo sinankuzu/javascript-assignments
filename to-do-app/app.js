@@ -5,17 +5,21 @@ const myIcon = document.createElement("fa-check");
 
 const myToplam = document.querySelector("#toplam");
 const myTamamlanan = document.querySelector("#tamamlanan");
-
+const myList =[]
 todoButton.onclick = () => {
+  
   todoLi.innerHTML += `<li><i class="fa-solid fa-check"></i> <p>${todoInput.value}</p><i class="fa-solid fa-trash"></i></li>`;
+  myList.push(todoInput.value);
   myToplam.innerHTML++;
   todoInput.value = "";
+  console.log(myList);
 };
 
 todoLi.onclick = (e) => {
   if (e.target.classList.contains("fa-trash")) {
-    e.target.parentElement.remove();
+    
     myToplam.innerHTML--;
+    myList.remove(e)
     if (
       myTamamlanan.value == myToplam.value &&
       e.target.parentElement.classList.contains("checked")
