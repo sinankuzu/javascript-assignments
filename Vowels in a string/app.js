@@ -16,7 +16,7 @@ let myInput2 = myInput.value.toLowerCase();
       sayac += 1;
    }
  })
- if(sayac > 1){
+ if(sayac >= 1){
  myResult.textContent = `There are ${sayac} vowels have found in your sentence`;
 
  }
