@@ -11,7 +11,7 @@ const ekranagetir = (osman) => {
        
        
           myCards.innerHTML += `
-          <div class="card text-center col-4" style="width: 18rem;">
+          <div class="card text-center col-4 m-2" style="width: 18rem;">
    <img class="card-img-top" src="${ahmet.show.image.medium}" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">${ahmet.show.name}</h5>
