@@ -12,7 +12,7 @@ const ekranagetir = (osman) => {
        
           myCards.innerHTML += `<div class="container border">
           <div class="card text-center" style="width: 18rem;">
-//   <img class="card-img-top" src="${ahmet.show.image.medium}" alt="Card image cap">
+   <img class="card-img-top" src="${ahmet.show.image.medium}" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">${ahmet.show.name}</h5>
     <a href="${ahmet.show.url}" class="btn btn-primary buton">Detaylar</a>
@@ -20,6 +20,7 @@ const ekranagetir = (osman) => {
 </div>
 </div>`;
 });
+
 
 }
 
